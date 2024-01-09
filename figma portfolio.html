@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>피그마 포트폴리오</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="headerType" class="header_wrap nexon"> 
+        <!-- haederType내의 글씨가 nexon 체로 된다. -->
+        <div class="header_inner">
+            <div class="header_logo">
+                <a href="#"> jeon's <em>info</em></a>
+            </div>
+            <nav class="header_menu">
+                <ul>
+                    <li><a href="#">헤더 영역</a></li>
+                    <li><a href="#">슬라이드 영역</a></li>
+                    <li><a href="#">배너 영역</a></li>
+                    <li><a href="#">컨텐츠 영역</a></li>
+                    <li><a href="#">푸터 영역</a></li>
+                </ul>
+            </nav>
+            <div class="header_login">
+                <a href="#">로그인</a>
+            </div>
+        </div>
+    </header>
+    <!-- 헤더 타입 -->
+    <section id="sliderType" class="slider_wrap nexon">
+        <h2 class="blind">슬라이더 유형</h2>
+        <!-- blind클래스를 써서 안보이게 작업 -->
+        <div class="slider_inner">
+            <div class="slider">
+                <div class="slider_img">
+                   
+                    <div class="desc">
+                        <span>developer</span>
+                        <h3>NEW FRONTEND</h3>
+                        <P>
+                            FIGMA를 통한 웹사이트 개발<br>
+                            HTML과 CSS를 함께 사용합니다.
+                        </P>
+                        <div class="btn">
+                            <a href="/">자세히 보기</a>
+                            <a href="https://blog.naver.com/turtleweb" class="black">사이트 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 슬라이더 설명 및 버튼 -->
+                <div class="slider_arrow">
+                    <a href="/" class="left"><span class="ir">이전 이미지</span></a>
+                    <a href="/" class="right"><span class="ir">다음 이미지</span></a>
+
+                </div>
+                <div class="slider_dot">
+                    <a href="/" class="dot active"><span class="ir">1</span></a>
+                    <a href="/" class="dot"><span class="ir">2</span></a>
+                    <a href="/" class="dot"><span class="ir">3</span></a>
+                    <a href="/" class="dot play"><span class="ir">play</span></a>
+                    <a href="/" class="dot stop"><span class="ir">stop</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 슬라이더 타입 -->
+    <section id="imageType" class="image_wrap nexon section">
+        <h2>FIGMA 포트폴리오</h2>
+        <p>이미지 유형 마우스 오버시 자세한 정보가 나오는 구조 입니다.</p>
+        <div class="image_inner container">
+            <!-- 이미지들을 컨테이너안에 속하게 하기 위함 -->
+           <article class="image img1">
+                <h3 class="image_title">산악인처럼 목표를 향하는 꾸준한 발걸음</h3>
+                <p class="image-desc">“자신의 목표를 위해 현실에 안주하지 않으며 단련을 통해 <br> 정상을 향한 꾸준한 발걸음”</p>
+                <a href = "/" class="image_btn">자세히보기</a>
+           </article>
+           <article class="image img2">
+                <h3 class="image_title">모진 풍파에도 굳건한 나무의 자세</h3>
+                <p class="image-desc">“어떠한 어려움에도 무너지지 않고 자신의 본분과 책임을<br>다하는 굳건한 자세”</p>
+                <a href="/" class="image_btn yellow">자세히보기</a>
+           </article>
+           <!-- 이미지와 버튼에 클래스를 붙여주게 되면 충돌이 나지 않고 재활용이 가능하다 -->
+        </div>
+    </section>
+    <!-- 이미지 타입 -->
+        <section id="imgTextType" class="imgText_wrap section nexon">
+            <h2 class="blind">이미지 텍스트 유형</h2>
+               <div class="imgText_inner container">
+                    <div class="imgText_txt">
+                        <span class="small">이미지 텍스트 유형 01</span>
+                        <h3 class="title">유용한 사이트 살펴보기</h3>
+                        <p class="desc">웹디자이너, 웹 퍼블리셔, 프론트앤드 개발자를 위한 유용한 사이트입니다.</p>
+                        <ul class="list">
+                            <li><a href="/">튜토리얼 사이트</a></li>
+                            <li><a href="/">래퍼런스 사이트</a></li>
+                            <li><a href="/">웹폰트 사이트</a></li>
+                            <li><a href="/">CSS 사이트</a></li>
+                            <li><a href="/">WEBGL 사이트</a></li>
+                            <li><a href="/">Youtube 사이트 </a></li>
+                        </ul>
+                    </div>
+                    <div class="imgText_img img1">
+                        <a href="/">레퍼런스 사이트</a>
+                    </div>
+                    <div class="imgText_img img2">
+                        <a href="/" class="blue">튜토리얼 사이트</a>
+                    </div>
+                </div>             
+        </section>
+    <!-- 카드 유형 -->
+        <section id="cardType" class="card_wrap nexon section">
+            <h2>FIGMA 포트폴리오</h2>
+            <p>FIGMA 포트폴리오 카드 유형</p>
+            <div class="card_inner container">
+                <article class="card">
+                    <figure class="card_header">
+                        <img src="images/card1.jpg" alt="웹표준">
+                    </figure>
+                    <div class="card_body">
+                        <h3 class="tit">웹표준 사이트 만들기</h3>
+                        <p class="desc">HTML과 CSS를 이용하여 웹표준에 부합하는 웹사이트를 구축 개발하였습니다. </p>
+                        <a class="btn" href="/">더 자세히 보기 →</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure class="card_header">
+                        <img src="images/card2.jpg" alt="반응형">
+                    </figure>
+                   <div class="card_body">
+                        <h3 class="tit">반응형 사이트 만들기</h3>
+                        <p class="desc">HTML과  CSS를 이용하여 웹표준에 부합하는 웹사이트를 구축 개발하였습니다. </p>
+                        <a class="btn" href="/">더 자세히 보기 →</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure class="card_header">
+                        <img src="images/card3.jpg" alt="리액트">
+                    </figure>
+                    <div class="card_body">
+                        <h3 class="tit">리액트 사이트 만들기</h3>
+                        <p class="desc">HTML과  CSS를 이용하여 웹표준에 부합하는 웹사이트를 구축 개발하였습니다. </p>
+                        <a class="btn" href="/">더 자세히 보기 → </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- 배너유형 -->
+        <section id="bannerType" class="banner_wrap nexon section">
+            <h2 class="blind">배너영역</h2>
+            <div class="banner_inner">
+                <h3 class="title">FIGMA 포트폴리오</h3>
+                <p class="desc">FIGMA 포트폴리오의 베너 유형
+                    <a href="/">블로그 주소</a>
+                </p>
+                <span class="small">배너유형01</span>
+            </div>
+        </section>
+        <!-- 텍스트 유형 -->
+        <section id="TextType" class="text_wrap nexon section" >
+            <span>텍스트 유형01</span>
+            <h3>스크립트를 익히는 방법</h3>
+            <div class="text_inner container">
+                <div class="text t1">
+                    <h3 class="text_title">검색 이펙트</h3>
+                    <p class="text_desc">자바스크립트의 기본 메서드를 통해 검색 스크립트를 완성하는 튜토리얼 입니다 <br>메서드를 통해 쉽게 검색을 만들 수 있습니다.</p>
+                    <a class="text_btn" herf="/">더보기</a>
+                </div>
+                <div class="text t2">
+                    <h3 class="text_title">마우스 이펙트</h3>
+                    <p class="text_desc">자바스크립트의 기본 메서드를 통해 검색 스크립트를 완성하는 튜토리얼 입니다 <br>메서드를 통해 쉽게 검색을 만들 수 있습니다.</p>
+                    <a class="text_btn" href="/">더보기</a>
+                </div>
+                <div class="text t3">
+                    <h3 class="text_title">퀴즈 이펙트</h3>
+                    <p class="text_desc">자바스크립트의 기본 메서드를 통해 검색 스크립트를 완성하는 튜토리얼 입니다 <br> 메서드를 통해 쉽게 검색을 만들 수 있습니다.</p>
+                    <a class="text_btn" href="/">더보기</a>
+                </div>
+                <div class="text t4">
+                    <h3 class="text_title">검색 이펙트</h3>
+                    <p class="text_desc">자바스크립트의 기본 메서드를 통해 검색 스크립트를 완성하는 튜토리얼 입니다 <br> 메서드를 통해 쉽게 검색을 만들 수 있습니다.</p>
+                    <a class="text_btn" href="/">더보기</a>
+                </div>
+                <div class="text t5">
+                    <h3 class="text_title">패랠랙스 이펙트</h3>
+                    <p class="text_desc">자바스크립트의 기본 메서드를 통해 검색 스크립트를 완성하는 튜토리얼 입니다 <br> 메서드를 통해 쉽게 검색을 만들 수 있습니다.</p>
+                    <a class="text_btn" href="/">더보기</a>
+                </div>
+                <div class="text t6">
+                    <h3 class="text_title">게임 이펙트</h3>
+                    <p class="text_desc">자바스크립트의 기본 메서드를 통해 검색 스크립트를 완성하는 튜토리얼 입니다 <br> 메서드를 통해 쉽게 검색을 만들 수 있습니다.</p>
+                    <a class="text_btn" href="/">더보기</a>
+                </div>
+            </div>
+        </section>
+        <!-- 푸터 영역 -->
+        <footer id="footerType" class="footer_wrap nexon section">
+            <h2 class="blind">푸터 영역</h2>
+            <div class="footer_inner container">
+                <div class="footer_menu">
+                    <div>
+                        <h3>사이트 제작</h3>
+                        <ul>
+                            <li><a href="/">웹표준 사이트 </a></li>
+                            <li><a href="/">반응형 사이트</a></li>
+                            <li><a href="/">패럴랙스 사이트</a></li>
+                            <li><a href="/">포트폴리오 사이트</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>헤더 유형</h3>
+                        <ul>
+                            <li><a href="/">헤더 유형01 </a></li>
+                            <li><a href="/">헤더 유형02</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>슬라이드 유형</h3>
+                        <ul>
+                            <li><a href="/">슬라이드 유형01 </a></li>
+                            <li><a href="/">슬라이드 유형02</a></li>
+                            <li><a href="/">슬라이드 유형03</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>이미지 유형</h3>
+                        <ul>
+                            <li><a href="/">이미지 유형01 </a></li>
+                            <li><a href="/">이미지 유형02</a></li>
+                            <li><a href="/">이미지/텍스트 유형01</a></li>
+                            <li><a href="/">이미지/텍스트 사이트</a></li>
+                            <li><a href="/">텍스트 유형02</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>카드 유형</h3>
+                        <ul>
+                            <li><a href="/">카드 유형01 </a></li>
+                            <li><a href="/">카드 유형02</a></li>
+                            <li><a href="/">카드 유형03</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>푸터 유형</h3>
+                        <ul>
+                            <li><a href="/">푸터 메뉴 유형01 </a></li>
+                            <li><a href="/">푸터 컨택트 유형02</a></li>
+                            <li><a href="/">푸터 컨택트 유형03 </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_right">
+                    2024 Jeon's info. FIGMA 포트폴리오 <br/> All rights reserved.
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
